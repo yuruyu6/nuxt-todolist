@@ -9,5 +9,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@vueuse/nuxt", "shadcn-nuxt", "@formkit/auto-animate"],
+  modules: [
+    "@vueuse/nuxt",
+    "shadcn-nuxt",
+    "@formkit/auto-animate",
+    "@nuxt/eslint",
+  ],
 });
